@@ -1,0 +1,6 @@
+{
+  "endpoints": {
+    "producao": "http://localhost:3333/",
+    "homologacao": "http://localhost:3333/"
+  }
+}
