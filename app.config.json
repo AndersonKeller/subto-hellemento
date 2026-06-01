@@ -2,5 +2,9 @@
   "endpoints": {
     "producao": "http://localhost:3333/",
     "homologacao": "http://localhost:3333/"
+  },
+  "clientId": {
+    "production": "",
+    "development": "562ac272-9d87-4786-bf3d-8bec2f9b78b3"
   }
 }

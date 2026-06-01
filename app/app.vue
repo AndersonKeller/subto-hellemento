@@ -3,9 +3,9 @@ import "./assets/global.css";
 
 // import favicon
 
-// const { data } = await useFetch("/api/configs");
+const { data } = await useFetch("/api/configs");
 const route = useRoute();
-
+// console.log(data, "data?");
 // if (data.value.styles) {
 //   if (import.meta.client) {
 //     const style = document.createElement("style");
@@ -21,7 +21,8 @@ const route = useRoute();
 // }
 // uuseConfigsStore().setConfigs(data.value);
 useHead(() => ({
-  title: `Subto Hellemento | ${route.meta.title}`,
+  title: `${data.value?.title} | ${route.meta.title}`,
+  style: data.value?.styles,
   // link: [{ rel: "icon", type: "image/svg+xml", href: data.value.favicon }],
 }));
 </script>

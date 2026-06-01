@@ -1,5 +1,5 @@
 {
-  "name": "CMS",
+  "name": "cms",
   "type": "module",
   "private": true,
   "scripts": {
@@ -19,6 +19,7 @@
     "vue-router": "^5.0.4"
   },
   "devDependencies": {
+    "@iconify/vue": "^5.0.1",
     "@types/node": "^25.6.0"
   }
 }
